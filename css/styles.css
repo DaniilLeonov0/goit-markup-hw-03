@@ -67,7 +67,7 @@ font-family: "Raleway", sans-serif;
     color: #434455;
 }
 
-address {
+.address {
     font-style: normal;
 }
 
@@ -189,7 +189,7 @@ address {
    
 }
 
-nav {
+.nav {
     display: flex;
     align-items: center;
 }
@@ -223,7 +223,7 @@ nav {
 }
 
 
-header {
+.page-header {
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -292,6 +292,10 @@ h1,h2,h3,p {
     margin-bottom: 8px;
 }
 
-.portfolio-item img {
+.team-img {
+    display: block;
+}
+
+.portfolio-img {
     display: block;
 }
