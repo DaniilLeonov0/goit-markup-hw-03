@@ -70,6 +70,7 @@ address {
 .hero {
     background-color: #2E2F42;
     text-align: center;
+    padding: 188px;
 }
 
 .hero-title {
@@ -87,6 +88,8 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    margin-top: 48px;
+    padding: 16px;
 }
 
 .section-title {
@@ -96,6 +99,7 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-top: 120px;
 }
 
 .feature-title {
@@ -162,6 +166,7 @@ address {
 
 .footer {
     background-color: #2E2F42;
+    padding: 188px;
 }
 
 .footer-logo {
@@ -174,8 +179,65 @@ address {
     color: #f4f4fd;
 }
 
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+nav {
+    display: flex;
+    align-items: center;
+}
 
+.nav-list {
+    display: flex;
+    margin-left: 76px;
+    gap: 24px;
+}
 
+.contacts {
+    display: flex;
+    gap: 40px;
+}
+
+.feature-list {
+    display:flex;
+    margin-top: 120px;
+    list-style: none;
+    gap: 24px;
+    padding: 32px;
+}
+
+.feature-list li {
+    border: 0px solid #212121;
+    width: 264;
+}
+
+.team-list {
+    display:flex;
+    padding: 72px;
+    gap: 24px;
+    justify-content: center;
+}
+
+.main-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.main-list-second ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteiner-footer {
+    margin-top: 188px;
+}
 
 
