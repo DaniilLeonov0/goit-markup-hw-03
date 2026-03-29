@@ -105,6 +105,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .feature-text {
@@ -123,6 +124,8 @@ address {
 
 .team-item {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
 }
 
 .team-name {
@@ -172,6 +175,7 @@ address {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .container {
@@ -189,7 +193,6 @@ nav {
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .contacts {
@@ -204,7 +207,7 @@ nav {
     justify-content: center;
 }
 
-.feature-list li {
+.feature-item {
     border: 0px solid #212121;
     width: 264px;
 }
@@ -273,7 +276,7 @@ h1,h2,h3,p {
 }
 
 .team-content {
-    padding: 32px 0;
+    padding: 32px 16px;
     text-align: center;
 }
 
